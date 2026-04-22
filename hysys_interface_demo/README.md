@@ -18,8 +18,11 @@ Topics covered in the notebook:
 
 - what Python can read and write through the HYSYS COM interface
 - how to connect to the active case
+- how to discover real stream, energy-stream, and operation names safely
 - how to map notebook parameters to stream and operation names
+- how to do a minimal read-only sanity check before the first real write
 - how to inspect streams before making changes
 - how to apply a structured sample of changes to the flowsheet
 - how to summarize energy-stream usage after a run
 - how to retarget the same pattern to another HYSYS case
+- how to debug the most common COM and naming failures
