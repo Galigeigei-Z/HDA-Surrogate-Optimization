@@ -8,43 +8,36 @@ The methodology is designed to address the intrinsically coupled and multi-objec
 
 <img width="1193" height="712" alt="Framework overview" src="https://github.com/user-attachments/assets/ae1d8f72-0d16-40ca-917c-ac6057f7beee" />
 
-Within this broader framework, the current folder provides a self-contained supertargeting and pinch-analysis demo based on an Excel stream sheet. It is intended as a compact, reproducible example for heat-integration analysis within the overall sustainability workflow.
+Within this broader framework, this repository now exposes two focused demos:
 
+- `heat_network_supertargeting/`
+  - the original workbook-based heat-network and pinch-analysis workflow
+  - includes the Excel input sheet, local helper package, pre-rendered figures,
+    and a standalone notebook
+- `hysys_interface_demo/`
+  - a teaching-oriented Aspen HYSYS COM automation demo
+  - shows how to connect Python to an active HYSYS case, map stream and unit-op
+    names, apply parameter changes, and inspect results
 
+## Folder Guide
 
-## HEN Supertargeting Demo
+### `heat_network_supertargeting/`
 
-This submodule focuses on the heat-integration part of the broader workflow. The demo covers:
+Use this folder when you want the original heat-integration workflow:
 
-- reading thermal streams from Excel
-- converting the rows into `ThermalStream` objects
-- running automatic supertargeting at a selected `\Delta T_{\min}`
-- reviewing summary metrics and area intervals
-- comparing composite curve and balanced composite curve results
-- displaying the final rendered figures used in the workflow
+- read thermal streams from Excel
+- convert the rows into `ThermalStream` objects
+- run automatic supertargeting at a selected `Delta Tmin`
+- review summary metrics, area intervals, and composite-curve style plots
 
-## Included Files
+### `hysys_interface_demo/`
 
-- `Input Sheet of 20.xlsx`: local demo data source
-- `notebook_sources/supertargeting_demo.py`: notebook source of truth
-- `generate_notebooks.py`: thin dispatcher that writes the notebook
-- `supertargeting_demo.ipynb`: generated Jupyter notebook
-- `images/`: rendered figures used by the notebook demo
+Use this folder when you want the Aspen HYSYS automation workflow:
 
-## Notebook Outputs
-
-The notebook is set up to show:
-
-- stream input table
-- summary metrics table
-- consolidated total-results table
-- interval and area table
-- notebook-rendered CC and BCC plots
-- pre-rendered final figures from the workflow
-
-## Usage
-
-Open `supertargeting_demo.ipynb` directly in Jupyter and run the cells from top to bottom.
+- connect to an already-open HYSYS case through `win32com`
+- inspect material streams and unit operations from Python
+- apply flowsheet changes in a structured way
+- run the same notebook in mock mode when HYSYS is not available
 
 
 ## Acknowledgement
