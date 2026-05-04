@@ -46,7 +46,7 @@ If this repository is useful for your work, please consider citing:
 
 **Zhang, Z., & Lim, E. W. C. (2026)**  
 *Sustainability assessment and optimization of a toluene hydrodealkylation process using surrogate models*  
-Chemical Engineering Science, 65(16), 8389–8402  
+Chemical Engineering Science  
 https://doi.org/10.1016/j.ces.2026.124158
 
 ## Acknowledgement
