@@ -1,4 +1,4 @@
-# Explainable Sustainability Assessment and Optimization Framework for Toluene HDA Process
+# Sustainability assessment and optimization of a toluene hydrodealkylation process using surrogate models
 
 ## Overview
 
