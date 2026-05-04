@@ -42,15 +42,12 @@ Use this folder when you want the Aspen HYSYS automation workflow:
 
 ## Citation
 
-If this repository is useful for your work, please consider citing our pub:
+If this repository is useful for your work, please consider citing:
 
-```
-Sustainability assessment and optimization of a toluene hydrodealkylation
-process using surrogate models
-Ziyun Zhang and Eldin Wee Chuan Lim
-Chemical Engineering Science 2026 65 (16), 8389-8402
+**Zhang, Z., & Lim, E. W. C. (2026)**  
+*Sustainability assessment and optimization of a toluene hydrodealkylation process using surrogate models*  
+Chemical Engineering Science, 65(16), 8389–8402  
 https://doi.org/10.1016/j.ces.2026.124158
-```
 
 ## Acknowledgement
 
