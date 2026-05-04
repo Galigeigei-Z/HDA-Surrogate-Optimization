@@ -40,9 +40,22 @@ Use this folder when you want the Aspen HYSYS automation workflow:
 - run the same notebook in mock mode when HYSYS is not available
 
 
+## Citation
+
+If this repository is useful for your work, please consider citing our pub:
+
+```
+Sustainability assessment and optimization of a toluene hydrodealkylation
+process using surrogate models
+Ziyun Zhang and Eldin Wee Chuan Lim
+Chemical Engineering Science 2026 65 (16), 8389-8402
+https://doi.org/10.1016/j.ces.2026.124158
+```
+
 ## Acknowledgement
 
 The authors also gratefully acknowledge A/Prof. Sachin V. Jangam for for his teaching in `CN4205 Pinch Analysis and Process Integration`, from which this work benefited.
+
 
 ## Contact
 
