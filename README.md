@@ -46,7 +46,7 @@ If this repository is useful for your work, please consider citing:
 
 **Ziyun Zhang and Eldin Wee Chuan Lim**  
 *Sustainability assessment and optimization of a toluene hydrodealkylation process using surrogate models*  
-Chemical Engineering Science 332 (2026) 124158.  
+Chemical Engineering Science 332 (2026) 124158  
 https://doi.org/10.1016/j.ces.2026.124158
 
 ## Acknowledgement
