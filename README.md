@@ -30,6 +30,8 @@ Use this folder when you want the original heat-integration workflow:
 - run automatic supertargeting at a selected `Delta Tmin`
 - review summary metrics, area intervals, and composite-curve style plots
 
+<img width="1200" alt="Heat network supertargeting composite curve example (ΔTmin = 20°C)" src="heat_network_supertargeting/images/composite_curve_process_only_dtmin20.png" />
+
 ### `hysys_interface_demo/`
 
 Use this folder when you want the Aspen HYSYS automation workflow:
